@@ -1,0 +1,11 @@
+{
+  "version": "1.1.1",
+  "installer": "Yara Research_1.1.1_x64-setup.exe",
+  "installerBytes": 6096260,
+  "installerSha256": "5ceb1c756915e18fdde056f3f1fb8f5dca2d9dab67aaa2f6d38c2c269a93964f",
+  "extensionZip": "Yara-browser-extension-1.1.1.zip",
+  "extensionSha256": "be7c578ff1114678330626cbc992fbce0748bbc2f7a621bbc5b28ccf5e6c056e",
+  "extensionId": "nbdapgcnfoohpiimganaopljfmipmgam",
+  "appSha256": "de41564ba6b6ca43a557a4d1b354d55be85c6d1a659cd8a6bfb06a8c9170c8c2",
+  "hostSha256": "23b0700b0880272dfd65bed35114df1bc2f54fb5f6b6ee3749bf116a3b5e1a7f"
+}

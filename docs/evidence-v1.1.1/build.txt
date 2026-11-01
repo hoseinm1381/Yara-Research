@@ -1,0 +1,74 @@
+
+> yara-research@1.1.1 build:extension
+> node scripts/build-extension.mjs
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 19 modules transformed.
+rendering chunks...
+computing gzip size...
+.tooling/extension-build/popup.html                   0.39 kB │ gzip:  0.27 kB
+.tooling/extension-build/assets/popup-CqSWT47v.css    2.20 kB │ gzip:  0.92 kB
+.tooling/extension-build/assets/popup-BZmF5SNK.js   248.59 kB │ gzip: 78.43 kB
+
+✓ built in 160ms
+Built Send to Yara 1.1.1 · nbdapgcnfoohpiimganaopljfmipmgam
+Load unpacked from E:\university\Yara_project\.tooling\extension-build
+   Compiling yara-research v1.1.1 (E:\university\Yara_project\src-tauri)
+    Finished `release` profile [optimized] target(s) in 37.35s
+
+> yara-research@1.1.1 package
+> node scripts/build-extension.mjs && tauri build --bundles nsis
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 19 modules transformed.
+rendering chunks...
+computing gzip size...
+.tooling/extension-build/popup.html                   0.39 kB │ gzip:  0.27 kB
+.tooling/extension-build/assets/popup-CqSWT47v.css    2.20 kB │ gzip:  0.92 kB
+.tooling/extension-build/assets/popup-BZmF5SNK.js   248.59 kB │ gzip: 78.43 kB
+
+✓ built in 101ms
+Built Send to Yara 1.1.1 · nbdapgcnfoohpiimganaopljfmipmgam
+Load unpacked from E:\university\Yara_project\.tooling\extension-build
+        Info Looking up installed tauri packages to check mismatched versions...
+     Running beforeBuildCommand `npm run build`
+
+> yara-research@1.1.1 build
+> tsc -b && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 2545 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.44 kB │ gzip:   0.28 kB
+dist/assets/index-Cr_jSyyf.css   54.71 kB │ gzip:  11.37 kB
+dist/assets/window-B4-n3K64.js   14.38 kB │ gzip:   3.51 kB
+dist/assets/index-DZ-lVNaJ.js   753.31 kB │ gzip: 236.73 kB
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.31s
+   Compiling yara-research v1.1.1 (E:\university\Yara_project\src-tauri)
+    Finished `release` profile [optimized] target(s) in 25.74s
+       Built application at: E:\university\Yara_project\src-tauri\target\release\yara-research.exe
+        Info Patching E:\university\Yara_project\src-tauri\target\release\yara-research.exe with bundle type information: nsis
+        Info Target: x64
+     Running makensis to produce E:\university\Yara_project\src-tauri\target\release\bundle\nsis\Yara Research_1.1.1_x64-setup.exe
+    Finished 1 bundle at:
+        E:\university\Yara_project\src-tauri\target\release\bundle\nsis\Yara Research_1.1.1_x64-setup.exe (5.81 MiB)
+
+
+Name                               Length
+----                               ------
+Yara Research_1.0.0_x64-setup.exe 4486088
+Yara Research_1.1.0_x64-setup.exe 6064297
+Yara Research_1.1.1_x64-setup.exe 6091476
+Yara-browser-extension-1.1.0.zip    77524
+Yara-browser-extension-1.1.1.zip    81563
+

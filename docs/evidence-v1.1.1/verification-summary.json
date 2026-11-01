@@ -1,0 +1,13 @@
+{
+  "version": "1.1.1",
+  "frontendTests": 59,
+  "rustTests": 48,
+  "browserWorkflows": 16,
+  "nativeIntegrationChecks": 21,
+  "liveBrowserSourceInspections": 4,
+  "liveChromeImportsVerified": 0,
+  "registryRestored": true,
+  "testedBinariesMatchRelease": true,
+  "schemaVersion": 2,
+  "protocolVersion": 1
+}

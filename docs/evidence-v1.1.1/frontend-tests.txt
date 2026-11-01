@@ -1,0 +1,13 @@
+
+> yara-research@1.1.1 test
+> vitest run
+
+
+ RUN  v5.0.5 E:/university/Yara_project
+
+
+ Test Files  5 passed (5)
+      Tests  59 passed (59)
+   Start at  23:29:37
+   Duration  6.14s (environment 60%, tests 27%, setup 8%, import 3%, transform 2%)
+

@@ -1,0 +1,79 @@
+{
+  "method": "Read-only DOM and bibliographic-script inspection in the Codex in-app browser. Not a live Chrome extension/native import.",
+  "date": "2026-11-01",
+  "metadataAssignment": "xplGlobal.document.metadata = <literal JSON object>",
+  "privateFieldsRetained": false,
+  "pages": [
+    {
+      "url": "https://ieeexplore.ieee.org/document/726791",
+      "type": "periodicals",
+      "title": "Gradient-based learning applied to document recognition",
+      "authors": ["Y. Lecun", "L. Bottou", "Y. Bengio", "P. Haffner"],
+      "doi": "10.1109/5.726791",
+      "year": "1998",
+      "publicationDate": "November 1998",
+      "venue": "Proceedings of the IEEE",
+      "publisher": "IEEE",
+      "abstractPresent": true,
+      "keywordGroups": ["IEEE Keywords", "Index Terms"],
+      "citationMetaTagsObserved": 0
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/9983528",
+      "type": "periodicals",
+      "title": "Combination Balance Correction of Grinding Disk Based on Improved Quantum Genetic Algorithm",
+      "authors": [
+        "Bangcheng Zhang",
+        "Siyu Chen",
+        "Siyang Gao",
+        "Zhi Gao",
+        "De Wang",
+        "Xiyu Zhang"
+      ],
+      "doi": "10.1109/TIM.2022.3227990",
+      "year": "2023",
+      "publicationDate": "2023",
+      "displayPublicationDate": "13 December 2022",
+      "venue": "IEEE Transactions on Instrumentation and Measurement",
+      "publisher": "IEEE",
+      "abstractCharacters": 1136,
+      "keywordGroups": ["IEEE Keywords", "Index Terms", "Author Keywords"]
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/10818533",
+      "type": "periodicals",
+      "title": "Adaptive Semantic Generation and NOMA-Based Interference-Aware Transmission for 6G Networks",
+      "authors": [
+        "Yuna Yan",
+        "Lixin Li",
+        "Xin Zhang",
+        "Wensheng Lin",
+        "Wenchi Cheng",
+        "Zhu Han"
+      ],
+      "doi": "10.1109/TWC.2024.3520870",
+      "year": "2025",
+      "publicationDate": "March 2025",
+      "displayPublicationDate": "30 December 2024",
+      "venue": "IEEE Transactions on Wireless Communications",
+      "publisher": "IEEE",
+      "abstractCharacters": 1248,
+      "keywordGroups": ["IEEE Keywords", "Index Terms", "Author Keywords"]
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/7780459",
+      "type": "conferences",
+      "title": "Deep Residual Learning for Image Recognition",
+      "authors": ["Kaiming He", "Xiangyu Zhang", "Shaoqing Ren", "Jian Sun"],
+      "doi": "10.1109/CVPR.2016.90",
+      "year": "2016",
+      "publicationDate": "June 2016",
+      "displayPublicationDate": "27-30 June 2016",
+      "dateOfInsertion": "12 December 2016",
+      "venue": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "publisher": "IEEE",
+      "abstractCharacters": 1293,
+      "keywordGroups": ["IEEE Keywords", "Index Terms"]
+    }
+  ]
+}

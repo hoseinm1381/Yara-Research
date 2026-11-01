@@ -1,0 +1,9 @@
+{
+  "name": "org.yara.research",
+  "description": "Yara Research local browser bridge",
+  "path": "yara-native-host.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://nbdapgcnfoohpiimganaopljfmipmgam/"
+  ]
+}

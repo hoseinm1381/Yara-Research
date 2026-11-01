@@ -1,0 +1,26 @@
+node_modules/
+dist/
+.tooling/
+src-tauri/target/
+src-tauri/binaries/
+test-results/
+playwright-report/
+*.log
+*.local
+.codegraph/
+src-tauri/gen/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-*
+*.yara
+# Distribution binaries are attached to GitHub Releases, not Git history.
+release/*.exe
+release/*.zip
+# Local browser profiles, absolute-path diagnostics and generated test reports.
+docs/evidence*/browser-results.json
+docs/evidence*/extension-native-smoke.json
+docs/evidence*/native-smoke.json
+docs/evidence*/*-console.txt

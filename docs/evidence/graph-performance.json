@@ -1,0 +1,29 @@
+{
+  "kind": "Headless Edge graph timing; engineering measurement, not a frame-rate guarantee",
+  "results": [
+    {
+      "storedPapers": 100,
+      "storedEdges": 99,
+      "renderedBeforeZoom": 100,
+      "visibleRenderedNodes": 40,
+      "loadMs": 1168,
+      "fiveZoomEventsAndScreenshotMs": 248
+    },
+    {
+      "storedPapers": 300,
+      "storedEdges": 299,
+      "renderedBeforeZoom": 300,
+      "visibleRenderedNodes": 70,
+      "loadMs": 1371,
+      "fiveZoomEventsAndScreenshotMs": 276
+    },
+    {
+      "storedPapers": 500,
+      "storedEdges": 499,
+      "renderedBeforeZoom": 500,
+      "visibleRenderedNodes": 90,
+      "loadMs": 1722,
+      "fiveZoomEventsAndScreenshotMs": 320
+    }
+  ]
+}

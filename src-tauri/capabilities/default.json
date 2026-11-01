@@ -1,0 +1,11 @@
+{
+  "identifier": "main",
+  "description": "Main window: core IPC, approved window close after unsaved-change confirmation, and user-selected backup dialogs.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-destroy",
+    "dialog:allow-open",
+    "dialog:allow-save"
+  ]
+}

@@ -1,0 +1,10 @@
+
+> yara-research@1.1.1 tauri
+> tauri bundle --bundles nsis
+
+        Info Patching E:\university\Yara_project\src-tauri\target\release\yara-research.exe with bundle type information: nsis
+        Info Target: x64
+     Running makensis to produce E:\university\Yara_project\src-tauri\target\release\bundle\nsis\Yara Research_1.1.1_x64-setup.exe
+    Finished 1 bundle at:
+        E:\university\Yara_project\src-tauri\target\release\bundle\nsis\Yara Research_1.1.1_x64-setup.exe (5.81 MiB)
+

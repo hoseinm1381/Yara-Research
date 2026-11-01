@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://ieeexplore.ieee.org/document/726791",
+    "status": "unavailable",
+    "reason": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.",
+    "priorAttemptRetained": true
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/document/9983528",
+    "status": "unavailable",
+    "reason": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.",
+    "priorAttemptRetained": true
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/document/10818533",
+    "status": "unavailable",
+    "reason": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.",
+    "priorAttemptRetained": true
+  },
+  {
+    "url": "https://ieeexplore.ieee.org/document/7780459",
+    "status": "unavailable",
+    "reason": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.",
+    "priorAttemptRetained": true
+  }
+]

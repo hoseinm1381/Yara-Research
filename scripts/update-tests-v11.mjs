@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+let s=fs.readFileSync('tests/workflows.spec.ts','utf8');
+s=s.replace('import { test, expect } from "@playwright/test";','import { test, expect } from "@playwright/test";\nasync function action(page:import("@playwright/test").Page,name:string){await page.getByRole("button",{name:"Add Paper",exact:true}).click();await page.getByRole("menuitem",{name,exact:true}).click();}');
+s=s.replace(/await page\.getByRole\("button", \{ name: "Add paper", exact: true \}\)\.click\(\);/g,'await action(page,"Add Paper Manually");');
+s=s.replace(/await page\.getByRole\("button", \{ name: "Import text", exact: true \}\)\.click\(\);/g,'await action(page,"Import from Text");');
+s=s.replace(/await page\s*\.getByRole\("button", \{ name: "Discover papers", exact: true \}\)\s*\.click\(\);/g,'await action(page,"Discover Papers");');
+s=s.replace(/await expect\(page\.locator\("\.workspace-heading p"\)\)\.toContainText\(\s*"6 papers(?:[^"\n]*)",?\s*\);/g,'expect(await page.evaluate(()=>JSON.parse(localStorage.getItem("yara-browser-preview-v1")!).papers.length)).toBe(6);');
+s=s.replace(/await expect\(page\.locator\("\.workspace-heading p"\)\)\.toContainText\(\s*"2 papers · 1 connections",?\s*\);/g,'expect(await page.evaluate(()=>JSON.parse(localStorage.getItem("yara-browser-preview-v1")!).citations.length)).toBe(1);');
+fs.writeFileSync('tests/workflows.spec.ts',s);
+let smoke=fs.readFileSync('scripts/native-smoke.mjs','utf8');smoke=smoke.replace('const proof = path.join(root, "docs", "evidence");','const proof = path.join(root, "docs", "evidence-v1.1");');smoke=smoke.replace('await page.getByRole("button", { name: "Add paper", exact: true }).click();','await page.getByRole("button", { name: "Add Paper", exact: true }).click();\n  await page.getByRole("menuitem",{name:"Add Paper Manually",exact:true}).click();');fs.writeFileSync('scripts/native-smoke.mjs',smoke);

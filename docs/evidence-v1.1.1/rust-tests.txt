@@ -1,0 +1,74 @@
+   Compiling yara-research v1.1.1 (E:\university\Yara_project\src-tauri)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 50.22s
+     Running unittests src\lib.rs (src-tauri\target\debug\deps\yara_research_lib-7a4aa15afc9afd36.exe)
+
+running 48 tests
+test tests::external_urls_reject_executable_schemes_and_credentials ... ok
+test tests::doi_normalization_and_validation ... ok
+test tests::migrations_are_versioned_and_idempotent ... ok
+test tests::invalid_metadata_is_rejected_without_records ... ok
+test tests::duplicate_import_enriches_missing_identifiers_without_replacing_corrections ... ok
+test tests::note_path_rejects_traversal ... ok
+test tests::failed_batch_savepoint_rolls_back_papers_and_layout ... ok
+test tests::deletion_retains_markdown_file_for_recovery ... ok
+test tests::provider_pagination_and_citation_filter_semantics ... ok
+test tests::invalid_foreign_keys_self_citations_and_cycles ... ok
+test tests::provider_parsing_reconstructs_abstract_and_handles_missing_values ... ok
+test tests::manually_entered_references_do_not_become_provider_verified ... ok
+test tests::checksum_mismatch_is_rejected ... ok
+test tests::provider_invalid_key_is_recoverable ... ok
+test tests::missing_note_can_be_recreated_safely ... ok
+test tests::missing_notes_fail_complete_backup_explicitly ... ok
+test tests::provider_rate_limit_respects_retry_after ... ok
+test tests::backup_failures_preserve_existing_data ... ok
+test tests::duplicate_import_preserves_user_work_and_note ... ok
+test tests::provider_rejects_malformed_json ... ok
+test tests::conflicting_identifiers_are_not_silently_merged ... ok
+test tests::external_note_conflicts_and_recovery_copy ... ok
+test tests::query_cache_is_persisted_locally ... ok
+test tests::position_updates_do_not_reset_pinning_or_metadata ... ok
+test tests::rejects_newer_database_version ... ok
+test tests::title_only_records_are_never_merged ... ok
+test tests::restore_rejects_unsafe_archive_paths ... ok
+test tests::notes_are_never_overwritten_by_metadata_edits ... ok
+test tests::unicode_metadata_tags_positions_status_survive_restart ... ok
+test tests::shared_citations_and_duplicate_edges ... ok
+test tests::statuses_and_hiding_preserve_notes_and_relationships ... ok
+test tests_v11::capture_session_cannot_be_reused_for_a_different_context ... ok
+test tests_v11::forged_payloads_unknown_workspaces_and_senders_are_rejected ... ok
+test tests_v11::complete_capture_requires_known_total_and_all_distinct_entries ... ok
+test tests::backup_restore_roundtrip_preserves_entire_workspace ... ok
+test tests_v11::metadata_provenance_never_implies_a_relationship ... ok
+test tests_v11::backup_restore_includes_sources_receipts_and_distinct_workspace_identity ... ok
+test tests_v11::ieee_capture_requires_real_article_context ... ok
+test tests_v11::legacy_database_migrates_without_changing_notes_layout_or_papers ... ok
+test tests_v11::genuine_v1_schema_and_backup_manifest_restore_safely ... ok
+test tests_v11::independent_source_relationships_and_partial_history_survive ... ok
+test tests_v11::repeated_extension_delivery_is_idempotent_and_collision_is_rejected ... ok
+test tests_v11::real_named_workspaces_are_isolated_and_never_moved ... ok
+test tests_v11::extension_import_preserves_user_data_and_targets_selected_workspace ... ok
+test tests_v11::ieee_complete_metadata_survives_bridge_sqlite_restart_and_safe_enrichment ... ok
+test tests_v11::openalex_only_becomes_complete_after_all_pages_and_counts ... ok
+test tests::provider_timeout_retries_then_returns_clear_error ... ok
+test tests::provider_offline_failure_is_bounded ... ok
+
+test result: ok. 48 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.94s
+
+     Running unittests src\native_main.rs (src-tauri\target\debug\deps\yara_native_host-749e1c9e5dd3777d.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src\main.rs (src-tauri\target\debug\deps\yara_research-2b05b39f5e5f0cf7.exe)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests yara_research_lib
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

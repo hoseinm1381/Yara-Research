@@ -1,0 +1,5 @@
+3f2ae15c232914fd98ea68ff85bf9bf070e3b38de617b9c7962d551a40245e91  Yara Research_1.0.0_x64-setup.exe
+4901bee61bf9dcd2da91ca5668dfd495f70f5c5031d546847a331b0c1111c818  Yara Research_1.1.0_x64-setup.exe
+5ceb1c756915e18fdde056f3f1fb8f5dca2d9dab67aaa2f6d38c2c269a93964f  Yara Research_1.1.1_x64-setup.exe
+e82894d6dbd68153b8f676fec689a3d8b9ca12e76cd25abb0e11f856514eb294  Yara-browser-extension-1.1.0.zip
+be7c578ff1114678330626cbc992fbce0748bbc2f7a621bbc5b28ccf5e6c056e  Yara-browser-extension-1.1.1.zip
